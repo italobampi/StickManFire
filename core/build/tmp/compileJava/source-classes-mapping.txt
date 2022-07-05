@@ -1,0 +1,36 @@
+com/mygdx/game/tela/Menu.java
+ com.mygdx.game.tela.Menu
+com/mygdx/game/input/InputProcessor.java
+ com.mygdx.game.input.InputProcessor
+com/mygdx/game/tela/GameOver.java
+ com.mygdx.game.tela.GameOver
+com/mygdx/game/bullet/BulletController.java
+ com.mygdx.game.bullet.BulletController
+com/mygdx/game/tela/MinhaTela.java
+ com.mygdx.game.tela.MinhaTela
+com/mygdx/game/inimigos/Inimigo.java
+ com.mygdx.game.inimigos.Inimigo
+com/mygdx/game/hubtop/Coracoes.java
+ com.mygdx.game.hubtop.Coracoes
+com/mygdx/game/Particula.java
+ com.mygdx.game.Particula
+com/mygdx/game/inimigos/InimigoController.java
+ com.mygdx.game.inimigos.InimigoController
+com/mygdx/game/hubtop/PortaD.java
+ com.mygdx.game.hubtop.PortaD
+com/mygdx/game/hubtop/VidaController.java
+ com.mygdx.game.hubtop.VidaController
+com/mygdx/game/player/Player.java
+ com.mygdx.game.player.Player
+com/mygdx/game/bullet/Bullet.java
+ com.mygdx.game.bullet.Bullet
+com/mygdx/game/hubtop/Hub1Supe.java
+ com.mygdx.game.hubtop.Hub1Supe
+com/mygdx/game/bullet/Arma.java
+ com.mygdx.game.bullet.Arma
+com/mygdx/game/MyGdxGame.java
+ com.mygdx.game.MyGdxGame
+com/mygdx/game/hubtop/PortaE.java
+ com.mygdx.game.hubtop.PortaE
+com/mygdx/game/Loading.java
+ com.mygdx.game.Loading
