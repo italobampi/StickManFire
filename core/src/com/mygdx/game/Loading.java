@@ -21,6 +21,7 @@ public class Loading {
         manager.load("portadireita.png", Texture.class);
         manager.load("portaesquerda.png", Texture.class);
         manager.load("pngwing.com.png", Texture.class);
+        manager.load("stick-sam.png", Texture.class);
         manager.load("7188_newgrounds_stung.mp3", Music.class);
         manager.load("Minecraft Zombie Sound Effect.mp3", Sound.class);
         manager.load("Minecraft-death-sound.mp3", Sound.class);

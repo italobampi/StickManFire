@@ -9,7 +9,7 @@ import com.mygdx.game.MyGdxGame;
 
 public class Menu implements Screen {
     SpriteBatch batch;
-    Texture img;
+    Fundo fundo;
     MyGdxGame game;
     int indice;
     public Menu( MyGdxGame game){
@@ -20,7 +20,7 @@ public class Menu implements Screen {
     @Override
     public void show() {
         batch = new SpriteBatch();
-        img = new Texture("stick-sam.png");
+        fundo = new Fundo();
     }
 
     @Override
@@ -29,7 +29,7 @@ public class Menu implements Screen {
         Gdx.graphics.setTitle("teste \t"+String.valueOf(Gdx.graphics.getFramesPerSecond()));
 selecao();
         batch.begin();
-        batch.draw(img,0,0);
+        fundo.draw(batch,delta);
         batch.end();
     }
 
@@ -56,17 +56,16 @@ selecao();
     @Override
     public void dispose() {
         batch.dispose();
-        img.dispose();
+
     }
     public void selecao(){
         if (Gdx.input.isTouched()){
-            if (Gdx.input.getX()<(Gdx.graphics.getWidth())){
+            if (Gdx.input.getX()<(Gdx.graphics.getWidth()/2)){
                 MinhaTela minhaTela = new MinhaTela();
                 game.setScreen(minhaTela);
 
-            }            else {
-                GameOver gameOver = new GameOver(game);
-                game.setScreen(gameOver);
+            }        else {
+                System.exit(0);
             }
 
         }
